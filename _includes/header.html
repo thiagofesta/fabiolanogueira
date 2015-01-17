@@ -7,22 +7,22 @@
     <div id="responsive-nav">
         <nav id="options" class="clearfix">
             <ul id="nav">
-                <li><a href="/" class="selected">Home<span class="icons start"></span></a></li>
+                <li><a href="/" class="{% if page.selected_menu %}{% if page.selected_menu == 'home' %}selected{% endif %}{% else %}selected{% endif %}">Home<span class="icons start"></span></a></li>
                 <li><a href="#" class="menu">Portfolio<span class="icons portfolio"></span></a>
                     <ul>
-                        <li><a href="masonry.html">Moda</a></li>
-                        <li><a href="thumbnails.html">Noivas</a></li>
+                        <li><a href="/404.html">Moda</a></li>
+                        <li><a href="/404.html">Noivas</a></li>
                     </ul>
                 </li>
                 <li><a href="#" class="menu">Serviços<span class="icons services"></span></a>
                     <ul>
-                        <li><a href="photography.html">Maquiagem</a></li>
-                        <li><a href="webdesign.html">Cabelo</a></li>
+                        <li><a href="/404.html">Maquiagem</a></li>
+                        <li><a href="/404.html">Cabelo</a></li>
                     </ul>
                 </li>
                 <!--<li><a href="team.html">Team<span class="icons team"></span></a></li>-->
                 <!--<li><a href="blog.html">Blog<span class="icons blog"></span></a></li>-->
-                <li><a href="/contact.html">Contato<span class="icons contact"></span></a></li>
+                <li><a href="/contact.html" class="{% if page.selected_menu == 'contact' %}selected{% endif %}">Contato<span class="icons contact"></span></a></li>
             </ul>
         </nav>
         <!-- end nav -->
@@ -36,4 +36,6 @@
         </div>
     </div>
 </header>
+
+
 <!-- end header -->
