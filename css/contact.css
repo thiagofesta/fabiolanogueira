@@ -1,0 +1,18 @@
+#contact { display: block; width: auto; margin: 0; padding: 0px; border: none; margin-top:25px; overflow:visible }
+
+/* Form style */
+
+#contact label { display: none; float: none; height:0px; }
+input, textarea, select { width:273px; padding:14px 20px 15px 20px; font: 13px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#212121; border:0; border:1px dotted #d3d3d3; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block; margin:0px 0 24px 0; -webkit-appearance: none; background:none}
+#contact textarea { margin-bottom:0px; margin-right:0px !important; resize: none;}
+input:focus, textarea:focus, select:focus {  }
+input.submit { display:inline-block; position:absolute; width:auto; bottom:40px; right:0px; border:0px; padding:0px; color:#8d8d8d; font-size:13px; background:none; cursor:pointer}
+
+
+
+#contact fieldset { padding-left:0px;}
+
+#contact .padding-right {padding-right:24px; }
+#f_message {height: 195px; }
+
+.fixed-height {display:block; height:30px; position:relative }

@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="container clearfix">
+    <div class="clearfix col1-1 auto">
+        <h2>Contato</h2>
+
+        <p class="big">
+            Entre em contato através do formulário de contato ou nos envie um e-mail. Entraremos em contato com você o mais breve possível.
+        </p>
+    </div>
+
+    <div class="clearfix col1-1 auto">
+        <div id="map"></div>
+    </div>
+
+    <div class="clearfix col2-3 medium-col1-3 auto">
+        <h4>Entre em contato</h4>
+
+        <div id="contact">
+            <form action="https://getsimpleform.com/messages?form_api_token={{site.simple_form_key}}" method="post" autocomplete="off">
+                <input type='hidden' name='redirect_to' value='{{site.fullurl}}thank-you.html' />
+
+                <fieldset>
+
+                    <div class="alignleft padding-right">
+                        <label for="f_name" accesskey="U"><span class="required">Nome</span></label>
+                        <input name="name" type="text" id="f_name" size="30" title="Nome *"/>
+
+                        <label for="f_email" accesskey="E"><span class="required">Email</span></label>
+                        <input name="email" type="text" id="f_email" size="30" title="Email *"/>
+
+                        <label for="f_phone" accesskey="P">Telefone *</label>
+                        <input name="phone" type="text" id="f_phone" size="30" title="Telefone *"/>
+                    </div>
+
+                    <label for="f_message" accesskey="C"><span class="required">Mensagem</span></label>
+                    <textarea name="message" cols="40" rows="3" id="f_message" title="Mensagem *"></textarea>
+
+                    <span class="break"></span>
+
+                    <div class="fixed-height">
+                        <p class="hide small uppercase">Campos marcados com * são de preenchimento obrigatório</p>
+                    </div>
+                </fieldset>
+
+                <p class="button"><input type="submit" value="Enviar" /></p>
+            </form>
+        </div>
+    </div>
+
+    <div class="clearfix col1-3 auto margin-left">
+        <h4>Localização</h4>
+
+        <p>
+            R. Dom Pedro II, 394 - Centro<br/>
+            Primeiro Andar<br/>
+            Toledo - PR<br/>
+            85904-175
+        </p>
+
+        <p>Email: {{site.email}}</p>
+
+        <p>Telefone: {{site.phone}}</p>
+    </div>
+</div>

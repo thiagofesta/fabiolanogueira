@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* Retina Ready Images */
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+h1#logo a { background:url(../img/bg-logo@2x.png) no-repeat; background-size:220px 116px; }
+
+.start { background:url(../img/bg-home@2x.png) center no-repeat; background-size:24px 24px; }
+.portfolio { background:url(../img/bg-portfolio@2x.png) center no-repeat; background-size:24px 24px; }
+.services { background:url(../img/bg-services@2x.png) center no-repeat; background-size:24px 24px; }
+.team { background:url(../img/bg-team@2x.png) center no-repeat; background-size:24px 24px; }
+.blog { background:url(../img/bg-blog@2x.png) center no-repeat; background-size:24px 24px; }
+.contact { background:url(../img/bg-contact@2x.png) center no-repeat; background-size:24px 24px; }
+
+.linkedin {background:url(../img/bg-linkedin@2x.png) center no-repeat; background-size:50px 50px; }
+.dribbble {background:url(../img/bg-dribbble@2x.png) center no-repeat; background-size:50px 51px; }
+.googleplus {background:url(../img/bg-googleplus@2x.png) center no-repeat; background-size:50px 50px; }
+.twitter {background:url(../img/bg-twitter@2x.png) center no-repeat; background-size:50px 51px; }
+.facebook {background:url(../img/bg-facebook@2x.png) center no-repeat; background-size:50px 51px; }
+.behance {background:url(../img/bg-behance@2x.png) center no-repeat; background-size:50px 50px; }
+.skype {background:url(../img/bg-skype@2x.png) center no-repeat; background-size:50px 51px; }
+.vimeo {background:url(../img/bg-vimeo@2x.png) center no-repeat; background-size:50px 50px; }
+
+.link {background:url(../img/bg-link@2x.png) center no-repeat; background-size:48px 48px; }
+.video {background:url(../img/bg-video@2x.png) center no-repeat; background-size:24px 24px; }
+.zoom {background:url(../img/bg-zoom.@2xpng) center no-repeat; background-size:24px 24px; }
+.map {background:url(../img/bg-map@2x.png) center no-repeat; background-size:24px 24px; }
+.slideshow {background:url(../img/bg-slideshow@2x.png) center no-repeat; background-size:24px 24px; }
+.camera {background:url(../img/bg-camera@2x.png) center no-repeat; background-size:24px 24px; }
+.award {background:url(../img/bg-award@2x.png) center no-repeat; background-size:24px 24px; }
+.comment {background:url(../img/bg-comment@2x.png) center no-repeat; background-size:24px 24px; }
+.audio {background:url(../img/bg-audio@2x.png) center no-repeat; background-size:24px 24px; }
+
+#backtotop ul li a { background:url(../img/bg-up@2x.png) center top no-repeat; background-size:24px 24px; }
+
+.flex-direction-nav .flex-next {background:url(../img/bg-next@2x.png) center no-repeat; background-size:48px 48px; }
+.flex-direction-nav .flex-prev {background:url(../img/bg-prev@2x.png) center no-repeat; background-size:48px 48px; }
+
+.fancybox-close {background: url(../img/bg-close@2x.png) center no-repeat; background-size:48px 48px;}
+.fancybox-prev span {background: url(../img/bg-prev@2x.png) center no-repeat; background-size:48px 48px;}
+.fancybox-next span {background: url(../img/bg-next@2x.png) center no-repeat; background-size:48px 48px;}
+}
+
+
+@media only screen and (min-width: 1600px) {
+/*.container { padding:0px; width:1600px; position:relative; margin:0 auto; }*/
+}
+
+@media only screen and (max-width: 1229px) {
+#backtotop {display:none !important }
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1519px) {
+.masonry .container {max-width:870px; }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1229px) {
+.masonry .container {max-width:870px; }
+}
+
+
+@media only screen and (max-width: 1229px) {
+#content {border-left:0px solid #fff; border-right:0px solid #fff;}
+header {position:relative; width:100%; padding-top:43px; padding-bottom:33px; }
+h1#logo { margin-bottom:23px; }
+#right-background, #responsive-nav {display:none }
+#nav-button {background-color: #809552; border-radius:3px; display:inline-block; padding:0; height:48px; -webkit-tap-highlight-color: rgba(0,0,0,0);
+-o-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1); box-shadow:0 1px 1px rgba(0, 0, 0, 0.1); margin:0 auto; position:absolute; right:20px; top:20px; z-index:10000 }
+#nav-button a { display:inline-block; padding:11px 15px; color:#fff; border-radius:3px; border: 1px solid #94ad5f; background-image: linear-gradient(bottom, #8da65a 0%, #9bb564 100%); background-image: -o-linear-gradient(bottom, #8da65a 0%, #9bb564 100%); background-image: -moz-linear-gradient(bottom, #8da65a 0%, #9bb564 100%); background-image: -webkit-linear-gradient(bottom, #8da65a 0%, #9bb564 100%); background-image: -ms-linear-gradient(bottom, #8da65a 0%, #9bb564 100%); background-color: #8da65a; -o-text-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25); -moz-text-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25); -webkit-text-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25); text-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25); height:45px; margin-bottom:20px;}
+.nav-bar {background-color:#fff; border-radius:1px; display:block; width:25px; height:3px; margin:3px auto; -o-box-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25);
+ -moz-box-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25); -webkit-box-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25);  box-shadow:-1px -1px 0px rgba(0, 0, 0, 0.25);}
+#options ul {margin-bottom:33px; }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container {width:580px; max-width:580px; }
+.col1-1, #map { width:570px; }
+.medium-col1-3 {width:280px !important }
+.column-count2 {-webkit-column-count:1; -moz-column-count:1; column-count:1; -webkit-column-gap:0px; -moz-column-gap:0px; column-gap:0px; }
+.medium-one-column {width:290px; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 767px) {
+.container, .two-columns {width:290px; max-width:290px; }
+.col1-1, .col2-3, #map { width:280px; height:280px; }
+.col2-3.wide {height:auto; }
+.column-count2 {-webkit-column-count:1; -moz-column-count:1; column-count:1; -webkit-column-gap:0px; -moz-column-gap:0px; column-gap:0px; }
+.col1-3.margin-left {margin-left:5px; width:280px; }
+.col1-3.margin-right {margin-right:5px; width:280px; }
+}
