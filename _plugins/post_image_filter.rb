@@ -3,9 +3,16 @@
 module Jekyll
   module PostImageFilter
 
-    def post_image(content, max_length = 15, continuation_string = "...")
+    def post_image(content, sufix = '')
       url = content.gsub('/blog/', '').gsub('/', '-')
-      url = '/img/posts/' + url + '.jpg'
+      url = '/img/posts/' + url
+
+      if sufix != ''
+        url += '-' + sufix
+      end
+
+      url += '.jpg'
+
       url
     end
 

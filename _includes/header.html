@@ -21,7 +21,7 @@
                     </ul>
                 </li>
                 <!--<li><a href="team.html">Team<span class="icons team"></span></a></li>-->
-                <!--<li><a href="blog.html">Blog<span class="icons blog"></span></a></li>-->
+                <li><a href="{{ '/blog.html' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'blog' %}selected{% endif %}">Blog<span class="icons blog"></span></a></li>
                 <li><a href="{{ '/contact.html' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'contact' %}selected{% endif %}">Contato<span class="icons contact"></span></a></li>
             </ul>
         </nav>

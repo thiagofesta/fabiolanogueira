@@ -4,7 +4,7 @@ function eborLoadIsotope(){
 var $container = jQuery('#container'),
 isotopeOptions = {},
 defaultOptions = {
-   filter: '.home',
+   filter: '.c-home',
    sortBy: 'original-order',
    sortAscending: true,
    layoutMode: 'masonry'

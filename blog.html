@@ -1,0 +1,48 @@
+---
+layout: default
+selected_menu: blog
+---
+
+<div class="container clearfix">
+    <div class="clearfix col1-1 auto">
+        <h2>Blog</h2>
+
+        <p class="big">Notícias, comentários e sugestões sobre maquiagem, cabelo, moda...</p>
+    </div>
+
+
+    <div id="container" class="clearfix two-columns medium-one-column">
+
+        {% for post in site.posts %}
+
+        <div class="element clearfix col1-3 c-home {% for category in post.categories %}c-{{category}} {% endfor %}  ">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="images">
+                    <img src="{{ (post.id | post_image:'folder') | prepend: site.baseurl }}" alt="" data-no-retina />
+
+                    <div class="teaser">
+                        <p class="small">{{ post.date | date: "%d/%m/%Y" }}</p>
+                        <h4>{{post.title}}</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    <div class="clearfix col1-3 auto margin-left">
+        <h5>Categorias</h5>
+
+        <div id="filters">
+            <ul class="unordered-list option-set clearfix" data-option-key="filter">
+                {% for category in site.categories %}
+                    <li><a href="#filter=.c-{{category | first}}">{{category | first | capitalize}}</a></li>
+                {% endfor %}
+                <li><a href="#filter=.c-home" class="selected">Ver todas</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
