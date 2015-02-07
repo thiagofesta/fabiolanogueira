@@ -10,7 +10,7 @@ GITHUB_REPONAME = "thiagofesta/fabiolanogueira"
 
 
 namespace :site do
-  desc "Generate blog files"
+  desc "Generate page files"
   task :generate do
     Jekyll::Site.new(Jekyll.configuration({
         "source"      => ".",
@@ -19,7 +19,7 @@ namespace :site do
   end
 
 
-  desc "Generate and publish blog to gh-pages"
+  desc "Generate and publish page to gh-pages"
   task :publish => [:generate] do
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
