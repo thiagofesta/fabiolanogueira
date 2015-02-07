@@ -8,6 +8,7 @@ baseurl: "/fabiolanogueira" # the subpath of your site, e.g. /blog/
 url: "http://thiagofesta.com" # the base hostname & protocol for your site
 fullurl: "http://thiagofesta.com/fabiolanogueira/"
 facebook_username: FabiolaNogueiraMakeUpStudio
+author: Fabíola Nogueira
 
 # Build settings
 markdown: kramdown
@@ -15,3 +16,5 @@ markdown: kramdown
 #APIs
 simple_form_key: 7c0199bc3fccf0f945164a6d49651934
 
+# Blog
+permalink: /blog/:year/:month/:day/:title.html
