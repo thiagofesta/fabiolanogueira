@@ -15,7 +15,7 @@ selected_menu: blog
 
         {% for post in site.posts %}
 
-        <div class="element clearfix col1-3 c-home {% for category in post.categories %}c-{{category}} {% endfor %}  ">
+        <div class="element clearfix col1-3 home {% for category in post.categories %}{{category}} {% endfor %}  ">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <div class="images">
                     <img src="{{ (post.id | post_image:'folder') | prepend: site.baseurl }}" alt="" data-no-retina />
@@ -38,9 +38,9 @@ selected_menu: blog
         <div id="filters">
             <ul class="unordered-list option-set clearfix" data-option-key="filter">
                 {% for category in site.categories %}
-                    <li><a href="#filter=.c-{{category | first}}">{{category | first | capitalize}}</a></li>
+                    <li><a href="#filter=.{{category | first}}">{{category | first | capitalize}}</a></li>
                 {% endfor %}
-                <li><a href="#filter=.c-home" class="selected">Ver todas</a></li>
+                <li><a href="#filter=.home" class="selected">Ver todas</a></li>
             </ul>
         </div>
     </div>
