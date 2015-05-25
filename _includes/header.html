@@ -8,19 +8,8 @@
         <nav id="options" class="clearfix">
             <ul id="nav">
                 <li><a href="{{ '/' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'home' %}selected{% endif %}">Home<span class="icons start"></span></a></li>
-                <li><a href="#" class="menu">Portfolio<span class="icons portfolio"></span></a>
-                    <ul>
-                        <li><a href="{{ '/404.html' | prepend: site.baseurl }}">Moda</a></li>
-                        <li><a href="{{ '/404.html' | prepend: site.baseurl }}">Noivas</a></li>
-                    </ul>
-                </li>
-                <li><a href="#" class="menu">Serviços<span class="icons services"></span></a>
-                    <ul>
-                        <li><a href="{{ '/404.html' | prepend: site.baseurl }}">Maquiagem</a></li>
-                        <li><a href="{{ '/404.html' | prepend: site.baseurl }}">Cabelo</a></li>
-                    </ul>
-                </li>
-                <!--<li><a href="team.html">Team<span class="icons team"></span></a></li>-->
+                <li><a href="{{ '/portfolio.html' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'portfolio' %}selected{% endif %}">Portfolio<span class="icons portfolio"></span></a></li>
+                <li><a href="{{ '/servicos.html' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'servicos' %}selected{% endif %}">Serviços<span class="icons services"></span></a></li>
                 <li><a href="{{ '/blog.html' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'blog' %}selected{% endif %}">Blog<span class="icons blog"></span></a></li>
                 <li><a href="{{ '/contact.html' | prepend: site.baseurl }}" class="{% if page.selected_menu == 'contact' %}selected{% endif %}">Contato<span class="icons contact"></span></a></li>
             </ul>
