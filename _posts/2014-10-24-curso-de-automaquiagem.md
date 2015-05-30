@@ -8,4 +8,6 @@ tags: tag1 tag2
 Pessoal, estou dando curso de  Automaquiagem com duração de 4 horas, podendo ser individual ou em dupla!!
 O valor individual fica R$ 300,00 e em dupla R$ 500,00
 
+<!-- more -->
+
 Maiores informações pelo telefone e whatsapp: 045 9985-6510 ou via [Facebook](https://www.facebook.com/fabiolagnogueira)

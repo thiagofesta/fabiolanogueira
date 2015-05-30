@@ -21,3 +21,4 @@ simple_form_key: 7c0199bc3fccf0f945164a6d49651934
 permalink: /blog/:year/:month/:day/:title.html
 paginate: 1
 paginate_path: "/blog/page/:num/"
+excerpt_separator: "<!-- more -->"

@@ -11,7 +11,9 @@ selected_menu: blog
         <div class="row">
             <div class="col-md-9">
 
-                {% for post in paginator.posts %}
+                {% assign sorted_pages = site.posts | sort:"date" | limit_offset:site.paginate,paginator.page %}
+
+                {% for post in sorted_pages %}
 
                 <article class="ct-articleBox ct-articleBox--default">
                     <div class="ct-articleBox-media">

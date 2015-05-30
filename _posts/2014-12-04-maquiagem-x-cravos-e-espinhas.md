@@ -9,6 +9,8 @@ Muitas se questionam o aparecimento de cravos e espinhas depois de uma certa ida
 
 Hoje venho esclarecer algumas dúvidas que relacionam cravos, espinhas e maquiagem!
 
+<!-- more -->
+
 A maquiagem pode sim influenciar nesses aparecimentos, de várias maneiras, uma delas e mais importante é a limpeza da pele. Você tem um prazo médio de usar uma maquiagem sem afetar sua pele durante 12 horas, logo, sempre antes de dormir, deve limpá-la com um demaquilante de sua escolha. Eu recomendo os 2 demaquilantes mais acessíveis, pois você os encontrará em Farmácias, Nívea e da Loreal Bifasicos (Bifasico pois é tanto para pele oleosa quanto para pele seca).
 
 Outra opção legal de limpeza são os sabonetes faciais, pois são preparados e pensados exclusivamente para uma pele mais sensível. Sempre observa se o produto foi classificado e aprovado dermatologicamente.
