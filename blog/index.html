@@ -5,8 +5,8 @@ selected_menu: blog
 <section class="ct-mediaSection ct-decoration--type5-rotate ct-u-paddingBoth80 ct-blog" id="works">
     <div class="container">
         <header class="ct-pageSectionHeader text-center">
-            <h2 class="ct-js-animation--item ct-motive-text" data-when="enter" data-from="0" data-to="1" data-opacity="0" data-translatey="-50" >HERE'S</h2>
-            <h3 class="ct-js-animation--item ct-u-hdr3" data-when="enter" data-from="0" data-to="1" data-opacity="0" data-translatey="100">my blog</h3>
+            <h2 class="ct-js-animation--item ct-motive-text" data-when="enter" data-from="0" data-to="1" data-opacity="0" data-translatey="-50" >MEU</h2>
+            <h3 class="ct-js-animation--item ct-u-hdr3" data-when="enter" data-from="0" data-to="1" data-opacity="0" data-translatey="100">blog</h3>
         </header>
         <div class="row">
             <div class="col-md-9">
@@ -43,7 +43,13 @@ selected_menu: blog
                         <ul class="pager text-left">
                             <li>
                                 {% if paginator.previous_page %}
-                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html"><i class="fa fa-angle-left"></i>  Anterior</a>
+
+                                    {% if paginator.previous_page == 1 %}
+                                    <a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}index.html"><i class="fa fa-angle-left"></i>  Anterior</a>
+                                    {% else %}
+                                    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.previous_page }}index.html"><i class="fa fa-angle-left"></i>  Anterior</a>
+                                    {% endif %}
+
                                 {% else %}
                                 <a href="#" style="color: #333333 !important; cursor: default;"><i class="fa fa-angle-left"></i>  Anterior</a>
                                 {% endif %}
@@ -54,9 +60,9 @@ selected_menu: blog
                         <ul class="pagination pagination-lg">
                             {% for page in (1..paginator.total_pages) %}
                                 {% if page == paginator.page %}
-                                    <li class="active"><a href="#">{{page}}</a></li>
+                                    <li class="active"><a href="#" onclick="return false;">{{page}}</a></li>
                                 {% elsif page == 1 %}
-                                    <li><a href="{{ '/blog' | prepend: site.baseurl | replace: '//', '/' }}index.html">{{page}}</a></li>
+                                    <li><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}index.html">{{page}}</a></li>
                                 {% else %}
                                     <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}index.html">{{page}}</a></li>
                                 {% endif %}
