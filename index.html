@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<header class="ct-mediaSection ct-section scroll" id="header" data-stellar-background-ratio="0.3" data-height="100%" data-type="parallax" data-bg-image="./assets/images/demo-content/makeup/makeup-home-main-bg.jpg" data-bg-image-mobile="./assets/images/demo-content/makeup/makeup-home-main-bg.jpg">
+<header class="ct-mediaSection ct-section scroll" id="header" data-stellar-background-ratio="0.3" data-height="100%" data-type="parallax" data-bg-image="{{ '/assets/images/makeup-home-main-bg.jpg' | prepend: site.baseurl }}" data-bg-image-mobile="{{ '/assets/images/makeup-home-main-bg.jpg' | prepend: site.baseurl }}">
     <div class="ct-mediaSection-inner">
         <div class="container">
             <div class="row">
@@ -10,7 +10,7 @@ layout: default
                     <h2 class="text-uppercase ct-u-text--white ct-u-hdr2 ct-js-animation--item" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="-100">Professional Makeup Artist</h2>
                     <div class="ct-divider ct-divider--type5 ct-js-animation--item" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="100">
                         <div class="ct-line ct-line--left"></div>
-                        <img src="./assets/images/divider-shape-type5.png" alt="">
+                        <img src="{{ '/assets/images/divider-shape-type5.png' | prepend: site.baseurl }}" alt="">
                         <div class="ct-line ct-line--right"></div>
                     </div>
                     <!--<a href="#prices" class="btn btn-default ct-js-btnScroll btn--noradius ct-js-animation--item" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="100">See what I can offer you</a>-->
@@ -37,7 +37,7 @@ layout: default
         </header>
         <div class="row ct-u-image--full-width">
             <div class="col-sm-4 col-md-4 col-sm-push-4 col-md-push-4 ct-u-paddingBottom40">
-                <img src="./assets/images/demo-content/makeup/makeup-home-portrait.jpg" alt="">
+                <img src="{{ '/assets/images/makeup-home-portrait.jpg' | prepend: site.baseurl }}" alt="">
             </div>
             <div class="col-sm-4 col-md-4 col-sm-pull-4 col-md-pull-4 ct-u-paddingBottom40">
                 <p>
@@ -54,7 +54,7 @@ layout: default
         </div>
     </div>
 </section>
-<section class="ct-mediaSection ct-decoration--type5 ct-u-paddingBoth80 ct-glyph--text scroll" id="services" data-stellar-background-ratio="0.3" data-height="524" data-type="parallax" data-bg-image="./assets/images/demo-content/makeup/makeup-home-services-bg.jpg" data-bg-image-mobile="./assets/images/demo-content/makeup/makeup-home-services-bg.jpg">
+<section class="ct-mediaSection ct-decoration--type5 ct-u-paddingBoth80 ct-glyph--text scroll" id="services" data-stellar-background-ratio="0.3" data-height="524" data-type="parallax" data-bg-image="{{ '/assets/images/makeup-home-services-bg.jpg' | prepend: site.baseurl }}" data-bg-image-mobile="{{ '/assets/images/makeup-home-services-bg.jpg' | prepend: site.baseurl }}">
     <div class="ct-mediaSection-inner">
         <div class="container">
             <header class="ct-pageSectionHeader text-center ct-js-animationDynamic">
@@ -65,7 +65,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-eventos.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-eventos.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">MAQUIAGEM PARA EVENTOS</h3>
@@ -76,7 +76,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-noivas.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-noivas.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">MAQUIAGEM PARA NOIVAS</h3>
@@ -87,7 +87,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-foto-video.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-foto-video.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">MAQUIAGEM PARA <br/> FOTO E VIDEO</h3>
@@ -98,7 +98,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-auto-maquiagem.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-auto-maquiagem.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">CURSO DE AUTOMAQUIAGEM E MAQUIAGEM PROFISSIONAL</h3>
@@ -111,7 +111,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-penteados.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-penteados.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">PENTEADOS</h3>
@@ -123,7 +123,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-design-sobrancelha.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-design-sobrancelha.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">DESIGN DE SOBRANCELHA</h3>
@@ -135,7 +135,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-micropigmentacao.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-micropigmentacao.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">MICROPIGMENTAÇÃO (TÉCNICA FIO A FIO)</h3>
@@ -147,7 +147,7 @@ layout: default
                 <div class="col-sm-3 col-md-3 ct-u-paddingBottom20">
                     <div class="ct-iconBox">
                         <div class="ct-iconElement ct-background-circleImage">
-                            <img src="./assets/images/demo-content/makeup/makeup-home-services-image-limpeza-pele.jpg" alt="">
+                            <img src="{{ '/assets/images/makeup-home-services-image-limpeza-pele.jpg' | prepend: site.baseurl }}" alt="">
                         </div>
                         <div class="ct-iconBox--description">
                             <h3 class="text-uppercase">LIMPEZA DE PELE</h3>
@@ -173,69 +173,69 @@ layout: default
         <div class="row ct-gallery">
 
             <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/1-large.jpg" title="">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/1-large.jpg' | prepend: site.baseurl }}" title="">
                     <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/1.jpg" alt="">
+                        <img src="{{ '/assets/images/portfolio/1.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/2-large.jpg" title="">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/2-large.jpg' | prepend: site.baseurl }}" title="">
                     <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/2.jpg" alt="">
+                        <img src="{{ '/assets/images/portfolio/2.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/3-large.jpg" title="">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/3-large.jpg' | prepend: site.baseurl }}" title="">
                     <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/3.jpg" alt="">
-                    </figure>
-                </a>
-            </div>
-            <div class="clearfix visible-lg"></div>
-
-            <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/4-large.jpg" title="">
-                    <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/4.jpg" alt="">
-                    </figure>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/5-large.jpg" title="">
-                    <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/5.jpg" alt="">
-                    </figure>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/6-large.jpg" title="">
-                    <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/6.jpg" alt="">
+                        <img src="{{ '/assets/images/portfolio/3.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
                 </a>
             </div>
             <div class="clearfix visible-lg"></div>
 
             <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/7-large.jpg" title="">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/4-large.jpg' | prepend: site.baseurl }}" title="">
                     <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/7.jpg" alt="">
+                        <img src="{{ '/assets/images/portfolio/4.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/8-large.jpg" title="">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/5-large.jpg' | prepend: site.baseurl }}" title="">
                     <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/8.jpg" alt="">
+                        <img src="{{ '/assets/images/portfolio/5.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
-                <a class="ct-js-magnificPopupImage" href="./assets/images/portfolio/9-large.jpg" title="">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/6-large.jpg' | prepend: site.baseurl }}" title="">
                     <figure class="ct-hover ct-hover-type11">
-                        <img src="./assets/images/portfolio/9.jpg" alt="">
+                        <img src="{{ '/assets/images/portfolio/6.jpg' | prepend: site.baseurl }}" alt="">
+                    </figure>
+                </a>
+            </div>
+            <div class="clearfix visible-lg"></div>
+
+            <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/7-large.jpg' | prepend: site.baseurl }}" title="">
+                    <figure class="ct-hover ct-hover-type11">
+                        <img src="{{ '/assets/images/portfolio/7.jpg' | prepend: site.baseurl }}" alt="">
+                    </figure>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/8-large.jpg' | prepend: site.baseurl }}" title="">
+                    <figure class="ct-hover ct-hover-type11">
+                        <img src="{{ '/assets/images/portfolio/8.jpg' | prepend: site.baseurl }}" alt="">
+                    </figure>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 ct-u-paddingBottom50">
+                <a class="ct-js-magnificPopupImage" href="{{ '/assets/images/portfolio/9-large.jpg' | prepend: site.baseurl }}" title="">
+                    <figure class="ct-hover ct-hover-type11">
+                        <img src="{{ '/assets/images/portfolio/9.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
                 </a>
             </div>
@@ -247,7 +247,7 @@ layout: default
 
 
 
-<section class="ct-mediaSection ct-decoration--type5 ct-u-paddingBoth80 scroll" id="clients"  data-stellar-background-ratio="0.3" data-height="575" data-type="parallax" data-bg-image="./assets/images/demo-content/makeup/makeup-home-clients-bg.jpg" data-bg-image-mobile="./assets/images/demo-content/makeup/makeup-home-clients-bg.jpg">
+<section class="ct-mediaSection ct-decoration--type5 ct-u-paddingBoth80 scroll" id="clients"  data-stellar-background-ratio="0.3" data-height="575" data-type="parallax" data-bg-image="{{ '/assets/images/makeup-home-clients-bg.jpg' | prepend: site.baseurl }}" data-bg-image-mobile="{{ '/assets/images/makeup-home-clients-bg.jpg' | prepend: site.baseurl }}">
     <div class="ct-mediaSection-inner">
         <div class="container">
             <div class="row">
@@ -258,7 +258,7 @@ layout: default
                     </header>
                     <div class="ct-divider ct-divider--type5 text-center">
                         <div class="ct-line ct-line--left"></div>
-                        <img src="./assets/images/divider-shape-type5.png" alt="">
+                        <img src="{{ '/assets/images/divider-shape-type5.png' | prepend: site.baseurl }}" alt="">
                         <div class="ct-line ct-line--right"></div>
                     </div>
                 </div>
@@ -305,12 +305,12 @@ layout: default
 
 <div class="container"></div>
 <div class="googlemapcontainer">
-    <div class="ct-googleMap" data-location="Rua Dom Pedro II, 394 - Centro, Toledo - PR" data-height="460" data-offset="0" data-zoom="16" data-icon="./assets/images/demo-content/makeup/map-marker-makeup.png"></div>
+    <div class="ct-googleMap" data-location="Rua Dom Pedro II, 394 - Centro, Toledo - PR" data-height="460" data-offset="0" data-zoom="16" data-icon="{{ '/assets/images/map-marker-makeup.png' | prepend: site.baseurl }}"></div>
 </div>
 <div class="container"></div>
 
 
-<section class="ct-mediaSection ct-u-paddingBoth80 ct-section  scroll" id="contact" data-stellar-background-ratio="0.3" data-height="736" data-type="parallax" data-bg-image="./assets/images/demo-content/makeup/makeup-home-contact-bg.jpg" data-bg-image-mobile="./assets/images/demo-content/makeup/makeup-home-contact-bg.jpg">
+<section class="ct-mediaSection ct-u-paddingBoth80 ct-section  scroll" id="contact" data-stellar-background-ratio="0.3" data-height="736" data-type="parallax" data-bg-image="{{ '/assets/images/makeup-home-contact-bg.jpg' | prepend: site.baseurl }}" data-bg-image-mobile="{{ '/assets/images/makeup-home-contact-bg.jpg' | prepend: site.baseurl }}">
     <div class="ct-mediaSection-inner">
         <div class="container">
             <header class="ct-pageSectionHeader text-center ct-js-animationDynamic">
