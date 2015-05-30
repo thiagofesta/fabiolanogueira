@@ -1,8 +1,8 @@
 <head>
-    <meta charset="utf-8">
-    <!-- Set the viewport width to device width for mobile -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}" />
 
@@ -11,15 +11,17 @@
     <link rel="apple-touch-icon" sizes="72x72" href="{{ '/apple-touch-icon-72x72.png' | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ '/apple-touch-icon-114x114.png' | prepend: site.baseurl }}">
 
-    <link href="{{ '/css/reset.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen" />
-    <link href="{{ '/css/contact.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen" />
-    <link href="{{ '/css/styles.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen" />
-    <link href="{{ '/css/flexslider.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen">
-    <link href="{{ '/css/jquery.fancybox.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen" />
-    <!--[if gt IE 8]><!--><link href="{{ '/css/retina-responsive.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen" /><!--<![endif]-->
-    <!--[if !IE]> <link href="{{ '/css/retina-responsive.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
-    <link href="{{ '/css/print.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="print" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,700,600,800' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/bootstrap.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/makeup.css' | prepend: site.baseurl }}">
+
+
+    <!--[if lt IE 9]>
+    <script src="{{ '/assets/bootstrap/js/html5shiv.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/bootstrap/js/respond.min.js' | prepend: site.baseurl }}"></script>
+    <![endif]-->
+
+    <script src="{{ '/assets/js/modernizr.custom.js' | prepend: site.baseurl }}"></script>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 </head>

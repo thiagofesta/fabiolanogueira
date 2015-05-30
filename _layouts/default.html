@@ -5,17 +5,52 @@
 <!--[if IE 9]> <html class="no-js ie9 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"  dir="ltr" lang="en-US"> <!--<![endif]-->
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body class="cssAnimate onepager">
 
-    {% include header.html %}
+        <div class="main">
 
-    <div id="content">
-      {{content}}
-    </div>
+            {% include header.html %}
 
-    {% include footer.html %}
+            <div id="ct-js-wrapper" class="ct-pageWrapper">
 
-  </body>
+                <nav class="navbar ct-navbar--transparent ct-navbar--stickyToTop ct-navbar--withTopbar" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <img class="ct-logo-navbar--transparent" src="./assets/images/demo-content/makeup/logo.png"  alt="">
+                                <img class="ct-logo-navbar--solid" src="./assets/images/demo-content/makeup/logo-solid.png"  alt="">
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="onepage"><a href="#header">Início</a></li>
+                                <li class="onepage"><a href="#about">Sobre</a></li>
+                                <li class="onepage"><a href="#services">Serviços</a></li>
+                                <li class="onepage"><a href="#works">Portfolio</a></li>
+                                <li class="onepage"><a href="#clients">Depoimentos</a></li>
+                                <li class="dropdown onepage"><a href="#contact">Contato</a>
+                                    <ul class="dropdown-menu ">
+                                        <li>
+                                            <span>De Segunda a Segunda</span>
+                                            <p>Somente Horário Marcado</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                {{content}}
+
+                {% include footer.html %}
+            </div>
+         </div>
+        </div>
+
+        {% include footer_scripts.html %}
+
+    </body>
 </html>

@@ -1,9 +1,9 @@
 # Site settings
-title: Fabíola Nogueira - Make Up
+title: Fabíola Nogueira - Professional Makeup Artist
 email: gnfabiola@gmail.com
 phone: (45) 9985-6510
 description: > # this means to ignore newlines until "baseurl:"
-  Fabíola Nogueira - Make Up. Make up, Maquiagem, Cabelo, Fotos, Casamentos.
+  Fabíola Nogueira - Professional Makeup Artist Makeup, Maquiagem, Cabelo, Fotos, Casamentos.
 baseurl: "/fabiolanogueira" # the subpath of your site, e.g. /blog/
 url: "http://thiagofesta.com" # the base hostname & protocol for your site
 fullurl: "http://thiagofesta.com/fabiolanogueira/"
