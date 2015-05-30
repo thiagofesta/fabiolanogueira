@@ -5,7 +5,7 @@ module Jekyll
 
     def post_image(content, sufix = '')
       url = content.gsub('/blog/', '').gsub('/', '-')
-      url = '/img/posts/' + url
+      url = '/assets/images/posts/' + url
 
       if sufix != ''
         url += '-' + sufix

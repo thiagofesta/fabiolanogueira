@@ -3,6 +3,7 @@ layout: post
 title:  "Maquiagem x Cravos e Espinhas"
 date:   2014-12-04 14:42:00
 categories: maquiagem beleza
+tags: tag3 tag2
 ---
 Muitas se questionam o aparecimento de cravos e espinhas depois de uma certa idade, entretanto ninguém nem imagina o porquê!
 
