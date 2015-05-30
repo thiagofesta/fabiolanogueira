@@ -9,7 +9,8 @@ selected_menu: blog
             <h3 class="ct-js-animation--item ct-u-hdr3" data-when="enter" data-from="0" data-to="1" data-opacity="0" data-translatey="100">blog</h3>
         </header>
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
 
                 {% assign sorted_pages = site.posts | sort:"date" | limit_offset:site.paginate,paginator.page %}
 
@@ -24,7 +25,7 @@ selected_menu: blog
                             <span>{{ post.date | date: "%d/%m/%Y" }}</span>
                             <span>
                                 {% for category in post.categories %}
-                                <a href="#">{{category | capitalize}}</a>{% if forloop.last == false %}, {% endif %}
+                                {{category | capitalize}}{% if forloop.last == false %}, {% endif %}
                                 {% endfor %}
                             </span>
                         </div>
@@ -84,6 +85,8 @@ selected_menu: blog
                     </div>
                 </div>
             </div>
+            <div class="col-md-2"></div>
+            <!--
             <div class="col-md-3 ct-js-sidebar">
                 <div class="row">
                     <div class="col-sm-6 col-md-12">
@@ -92,8 +95,8 @@ selected_menu: blog
                                 <h4 class="text-uppercase">Categorias</h4>
                                 <ul>
                                     {% for category in site.categories %}
-                                    <li>
-                                    <!--<li class="current-cat">-->
+                                    <li class="current-cat">
+
                                         <a href="#" title="View all posts filed under {{category | first | capitalize}}">{{category | first | capitalize}}<span class="ct-blogWidget-count"> (2)</span></a>
                                     </li>
                                     {% endfor %}
@@ -115,6 +118,7 @@ selected_menu: blog
                     </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </section>
