@@ -10719,3 +10719,12 @@ footer .ct-footer-logo {
   filter: alpha(opacity=100);
   /* For IE8 and earlier */
 }
+
+@media (max-width: 480px) {
+  /**
+   * Improve background header image on small screens
+   */
+  #header {
+    background-position: 70% center !important;
+  }
+}
