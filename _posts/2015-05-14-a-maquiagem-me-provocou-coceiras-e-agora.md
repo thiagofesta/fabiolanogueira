@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A maquiagem me provocou coceiras, e agora?"
-date:   2014-10-24 10:00:00
+date:   2015-05-14 10:00:00
 categories: cuidados
 tags: coceiras irritações
 ---

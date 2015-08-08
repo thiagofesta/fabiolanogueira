@@ -4,42 +4,15 @@ layout: root
 <nav class="navbar ct-navbar--transparent ct-navbar--stickyToTop ct-navbar--withTopbar" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="indexmulti.html">
+            <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">
                 <img class="ct-logo-navbar--transparent" src="{{ '/assets/images/logo.png' | prepend: site.baseurl }}"  alt="">
                 <img class="ct-logo-navbar--solid" src="{{ '/assets/images/logo-solid.png' | prepend: site.baseurl }}"  alt="">
             </a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown"><a href="indexmulti.html">Home</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="indexmulti.html">Home - Parallax</a>
-                            <a href="header.html">Home - Video</a>
-                            <a href="header2.html">Home - Kenburns</a>
-                            <a href="header3.html">Home - Slider</a>
-                            <a href="header4.html">Home - Slice Effect</a>
-                            <a href="header5.html">Home - Push Effect</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="prices.html">Pricing</a></li>
-                <li><a href="materials.html">Materials</a></li>
-                <li><a href="works.html">Works</a></li>
-                <li><a class="ct-navbar-item--active" href="blog.html">Blog</a></li>
-                <li class="dropdown"><a href="contact.html">Contact</a>
-                    <ul class="dropdown-menu ">
-                        <li>
-                            <span>Monday - Friday</span>
-                            <p>9:00AM - 6:00PM</p>
-                            <span>Saturday</span>
-                            <p>10:00AM - 4:00PM</p>
-                            <span>Sunday</span>
-                            <p>CLOSED</p>
-                        </li>
-                    </ul>
-                </li>
+                <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+                <li><a class="ct-navbar-item--active" href="{{ '/blog/index.html' | prepend: site.baseurl }}">Blog</a></li>
             </ul>
         </div>
     </div>

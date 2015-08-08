@@ -4,7 +4,7 @@ layout: root
 <nav class="navbar ct-navbar--transparent ct-navbar--stickyToTop ct-navbar--withTopbar" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">
                 <img class="ct-logo-navbar--transparent" src="{{ '/assets/images/logo.png' | prepend: site.baseurl }}"  alt="">
                 <img class="ct-logo-navbar--solid" src="{{ '/assets/images/logo-solid.png' | prepend: site.baseurl }}"  alt="">
             </a>
@@ -24,6 +24,7 @@ layout: root
                         </li>
                     </ul>
                 </li>
+                <li ><a href="{{ '/blog/index.html' | prepend: site.baseurl }}">Blog</a></li>
             </ul>
         </div>
     </div>
