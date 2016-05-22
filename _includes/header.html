@@ -12,7 +12,7 @@
             </div>
             <div class="col-sm-6 col-lg-6">
                 <div class="ct-socials text-right">
-                    <a href="https://www.facebook.com/fabiolagnogueira/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                     <a href="https://instagram.com/fabiolanog/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
@@ -35,12 +35,12 @@
 </div>
 <div class="ct-menuMobile">
     <ul class="ct-menuMobile-navbar">
-        <li ><a href="#header">Início</a></li>
-        <li ><a href="#about">Sobre</a></li>
-        <li ><a href="#services">Serviços</a></li>
-        <li ><a href="#works">Portfolio</a></li>
-        <li ><a href="#clients">Depoimentos</a></li>
-        <li class="dropdown "><a href="#contact">Contato</a>
+        <li ><a href="{{ '/#header' | prepend: site.baseurl }}">Início</a></li>
+        <li ><a href="{{ '/#about' | prepend: site.baseurl }}">Sobre</a></li>
+        <li ><a href="{{ '/#services' | prepend: site.baseurl }}">Serviços</a></li>
+        <li ><a href="{{ '/#works' | prepend: site.baseurl }}">Portfolio</a></li>
+        <li ><a href="{{ '/#clients' | prepend: site.baseurl }}">Depoimentos</a></li>
+        <li class="dropdown "><a href="{{ '/#contact' | prepend: site.baseurl }}">Contato</a>
             <ul class="dropdown-menu">
                 <li>
                     <span>De Segunda a Segunda</span>
@@ -56,7 +56,7 @@
 <header>
     <h1 id="logo"><a href="{{ '/' | prepend: site.baseurl }}">{{site.title}}</a></h1>
     <div class="centered">
-        <div id="nav-button"> <a href="#"><span class="nav-bar"></span><span class="nav-bar"></span><span class="nav-bar"></span></a> </div>
+        <div id="nav-button"> <a href="/#"><span class="nav-bar"></span><span class="nav-bar"></span><span class="nav-bar"></span></a> </div>
     </div>
     <div id="responsive-nav">
         <nav id="options" class="clearfix">
